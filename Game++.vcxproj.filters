@@ -27,4 +27,8 @@
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="mapa1_floresta_gelo_32.json" />
+  </ItemGroup>
 </Project>

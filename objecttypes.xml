@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="Chao" color="#00c800">
+  <property name="valor" type="int" default="1"/>
+  <property name="solido" type="bool" default="true"/>
+ </objecttype>
+ <objecttype name="PlataformaGelo" color="#00dcff">
+  <property name="valor" type="int" default="2"/>
+  <property name="solido" type="bool" default="true"/>
+  <property name="escorregadio" type="bool" default="true"/>
+ </objecttype>
+ <objecttype name="SpawnPlayer" color="#ffe600">
+  <property name="valor" type="int" default="3"/>
+ </objecttype>
+ <objecttype name="EspinhoVenenoso" color="#ff0000">
+  <property name="valor" type="int" default="4"/>
+  <property name="dano" type="int" default="10"/>
+  <property name="venenoTempo" type="float" default="2"/>
+ </objecttype>
+ <objecttype name="ProximaFase" color="#ff00ff">
+  <property name="valor" type="int" default="7"/>
+  <property name="destino" default="mapa2"/>
+ </objecttype>
+</objecttypes>
